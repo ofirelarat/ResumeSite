@@ -1,0 +1,219 @@
+
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+  background-color: #ffffff;
+  max-width: 100%;
+}
+
+
+/* NAVBAR
+-------------------------------------------------- */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.navbar-wrapper a{
+  cursor: pointer;
+}
+
+/* BACKGROUND IMAGE
+-------------------------------------------------- */
+ .background-section{
+    margin-top: 50px;
+    height: 300px;
+    margin-bottom: 0px;
+ }
+ 
+ .background-section .gallery-wrapper {
+      position: absolute;
+      height: 300px;
+      margin-top: -5px;
+      left: 0;
+      right: 0;
+      z-index: 0;
+      overflow: hidden;
+      background-image: url("images/material-background.png");
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+   
+
+    .background-section .gallery-wrapper h3 {
+        max-width: 100%;
+        height: 300px;
+        margin: 0 auto;
+        margin: 25px;
+        padding-top: 5px;
+        font-size: 40px;
+        color: #fff;
+        line-height: 45px;
+        letter-spacing: 0.4px;
+     }
+
+/* BACKGROUND COLOR
+-------------------------------------------------- */
+.colored-background-section{
+    height: 150px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+ }
+
+ .colored-background-section .color-wrapper{
+        position: absolute;
+        height: 150px;
+        margin-top: -5px;
+        left: 0;
+        right: 0;
+        z-index: 0;
+        overflow: hidden;
+        background-color: #34495e;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+     .colored-background-section .color-wrapper h3 {
+        max-width: 100%;
+        max-height: 100px;
+        margin: 0 auto;
+        margin: 20px;
+        position: absolute;
+        bottom: 0;
+        font-size: 35px;
+        color: #fff;
+        line-height: 45px;
+        letter-spacing: 0.5px;
+     }
+
+/* RESUME
+-------------------------------------------------- */
+.resume-content{
+    margin: 20px;
+}
+
+.resume-content h4 {
+    font-size: 25px;
+}
+
+.resume-content p {
+    font-style: italic;
+    font-size: 15px;
+}
+
+/* PROJECT
+-------------------------------------------------- */
+.project-divider {
+  margin: 50px 0; /* Space out the Bootstrap <hr> more */
+}
+
+.small-project-divider {
+  margin: 10px 0; /* Space out the Bootstrap <hr> more */
+}
+
+.project-img{
+  text-align: right;
+  width: 150;
+  height: 150;
+  background-size: cover;
+}
+
+ .project-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+/* CV BLOCK
+-------------------------------------------------- */
+ .cv-block{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background-color: #34495e; 
+  }
+
+  .cv-block h1{
+    font-weight: 300;
+    font-size: 27px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .cv-block button{
+    width: 181px;
+    height: 45px;
+    background-color: #16a085;
+    border-radius: 1px;
+    border: none;
+    font-size: 18px;
+    font-family: 'Montserrat-Regular', serif;
+    color: #fff; 
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .cv-block button:hover{
+    background-color: #1abc9c;
+  }
+
+  #cvPanel{
+    width: 75%; 
+    margin-top:35px;
+    margin-bottom: 20px;
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+
+
+/* FanGames stack images
+-------------------------------------------------- */
+
+#jumpBall{
+  position: absolute;
+  z-index: auto;
+}
+
+#bloonsAndBombs{
+  position: absolute;
+  z-index: 1;
+  left: 30px;
+  top: 25px;
+}
+
+#trashPaper{
+  position: absolute;
+  z-index: 2;
+  left: 50px;
+  top: 50px;
+}
+
+
+@media only screen and (max-width:1000px){
+  .fan-games-block{
+    margin-bottom: 175px;
+  }
+}
