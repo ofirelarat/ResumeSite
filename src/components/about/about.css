@@ -1,0 +1,10 @@
+.about{
+    
+}
+.about .static-about{
+
+}
+
+.about .linked-about{
+    display: flex;
+}

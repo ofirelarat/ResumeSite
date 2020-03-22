@@ -1,0 +1,16 @@
+.static-profile{
+    display: flex;
+    width: 150px;
+    height: 30px;
+}
+
+.static-profile .image{
+    width: 30px;
+    height: 30px;
+}
+
+.static-profile .name{
+    font-style: italic;
+    font-size: 10px;
+    margin: auto 7px;
+}
