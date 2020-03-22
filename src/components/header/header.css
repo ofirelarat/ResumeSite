@@ -1,0 +1,37 @@
+.header{
+    display: flow-root;
+    background-color: #fdcb6e;
+    text-align: center;
+    height: 150px;
+    padding: 5%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.header .main-title{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.main-title-colored{
+    color: #7B524C;
+    font-weight: bold;
+}
+
+.header .sub-title{
+    font-size: 15px;
+}
+
+.header .border-style{
+    border-left-style: solid;
+    margin: 5px;
+}
+
+.arrow-shape {
+    margin: 0 auto;
+    width: 0; 
+    height: 0; 
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-top: 100px solid #fdcb6e;
+}
