@@ -1,7 +1,6 @@
 .about{
     display: flex;
     margin: 0 auto;
-    padding: 20px;
 }
 .about .static-about{
     display: flex;
