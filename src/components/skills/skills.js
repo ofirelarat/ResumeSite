@@ -3,9 +3,9 @@ import { Chip } from '@material-ui/core';
 
 import './skills.css';
 
-function Skills(props) {
+function Skills() {
     const skillsNames = ['Web Development', 'Android Development', 'Software Development',
-     'OOP', '. Net Framework', '.Net Core', 'javascript', 'react', 'NodeJS', 'SQL', 'C#',
+     'OOP', '.Net Framework', '.Net Core', 'javascript', 'react', 'NodeJS', 'SQL', 'C#',
       'JAVA', 'typescript', 'git', 'mongoDB'];
 
      const chipsComp = skillsNames.map((skill) => <Chip className="skill" key={skill} label={skill}/>)
