@@ -1,8 +1,13 @@
 .about{
-    
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+    width: 70%;
 }
 .about .static-about{
-
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
 }
 
 .about .linked-about{
