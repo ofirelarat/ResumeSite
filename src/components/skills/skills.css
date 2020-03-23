@@ -16,6 +16,12 @@
     margin: 10px;
 }
 
+.skills .title .image{
+    margin-left: -25px;
+    width: 25px;
+    height: 25px;
+}
+
 .skills .skill{
     background-color: #fdcb6e;
     margin: 5px;

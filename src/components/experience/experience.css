@@ -1,9 +1,42 @@
-.experience{}
+.experience{
+    width: 50%;
+    margin: 10px 0 0 80px;
+}
 
 .experience .title{
     display: flex;
     text-decoration: underline;
     font-weight: bold;
-    font-size: 23px;
-    margin: 10px;
+    font-size: 23px; 
+}
+
+
+.experience .title .image{
+    margin-left: -25px;
+    width: 25px;
+    height: 25px;
+}
+
+
+.experience .exp-title{
+    font-weight: bold;
+}
+
+.experience .primery-color{
+    color: #7B524C;
+}
+
+.experience .secondery-color{
+    color: #7f8c8d;
+}
+
+.experience .subtitle{
+    color: black;
+    margin-left: 10px;
+    font-style: italic;
+}
+
+.experience .description{
+    max-width: 50%;
+    margin-left: 10px;
 }

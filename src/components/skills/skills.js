@@ -11,7 +11,10 @@ function Skills() {
      const chipsComp = skillsNames.map((skill) => <Chip className="skill" key={skill} label={skill}/>)
     return (
         <div className="skills">
-            <div className="title">Skills</div>
+            <div className="title">
+                <img className="image" src="/images/skills.png"  alt="skills" />
+                Skills
+            </div>
             <div className="skills-container">
                 {chipsComp}
             </div>
