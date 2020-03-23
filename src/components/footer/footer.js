@@ -4,7 +4,7 @@ import './footer.css';
 function Footer() {
     return (
         <footer className="footer">
-            © 2017 Ofir Elarat.
+            © Ofir Elarat.
         </footer>
     );
   }

@@ -11,6 +11,10 @@ function Skills() {
      const chipsComp = skillsNames.map((skill) => <Chip className="skill" key={skill} label={skill}/>)
     return (
         <div className="skills">
+            <p className="objective">
+                Software engineer with 3 years of experience,<br/>
+                eager to learn more technologies and become a better developer.
+            </p>
             <div className="title">
                 <img className="image" src="/images/skills.png"  alt="skills" />
                 Skills

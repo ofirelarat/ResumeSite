@@ -7,6 +7,7 @@ import Experience from './components/experience';
 import Education from './components/education/education';
 import Projects from './components/projects';
 import Footer from './components/footer';
+import Lang from './components/language-comp';
 
 function App() {
   return (
@@ -16,7 +17,10 @@ function App() {
         <About />
         <Skills />
       </div>
-      <Experience />
+      <div className="top-container">
+        <Experience />
+        <Lang />
+      </div>
       <Education />
       <Projects />
       <Footer />

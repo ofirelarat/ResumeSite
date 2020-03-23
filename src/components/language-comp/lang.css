@@ -1,0 +1,25 @@
+.lang{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.lang .title{
+    display: flex;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 23px;
+    margin: 10px;
+}
+
+
+.lang .title .image{
+    margin-right: 1px;
+    width: 24px;
+    height: 24px;
+}
+
+ul.lang {
+    position: absolute;
+    list-style-type: circle;
+}
