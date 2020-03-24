@@ -1,6 +1,5 @@
 .skills{
-    width: 40%;
-    margin: 0 auto;
+    flex:1.8;
 }
 
 .skills .skills-container{

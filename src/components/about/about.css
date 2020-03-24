@@ -1,7 +1,8 @@
 .about{
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    flex:2;
+    margin: 10px 0 0 80px;
 }
 
 .about .static-about{

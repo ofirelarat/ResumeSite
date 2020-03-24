@@ -5,14 +5,13 @@ import './projects.css';
 function Projects() {
 
     const projectsItems = [
-        {
-            'title': 'Medicine Cabinet',
-            'image': '/images/medicine-icon.png',
-            'description': `the place to save your medicine organize
-                            The project include web service that built with asp.NET, android app and MongoDB
-                            that store the data.`,
-            'link': 'http://medicinecabinetapp.azurewebsites.net/',
-            'linkLabel': 'Website'
+          {
+            'title': 'MemoFun - fun and simple cards memory game',
+            'image': '/images/memo-fun.png',
+            'description': `Android free memory cards game, 
+                            very simple thats integrate with google play game services.`,
+            'link': 'https://play.google.com/store/apps/details?id=com.ofirelarat.memofun',
+            'linkLabel': 'play store page'
         },
         {
             'title': 'Actuar',
@@ -23,20 +22,21 @@ function Projects() {
             'linkLabel': 'Website'
         },
         {
+            'title': 'Medicine Cabinet',
+            'image': '/images/medicine-icon.png',
+            'description': `the place to save your medicine organize
+                            The project include web service that built with asp.NET, android app and MongoDB
+                            that store the data.`,
+            'link': 'http://medicinecabinetapp.azurewebsites.net/',
+            'linkLabel': 'Website'
+        },
+        {
             'title': 'SafeApp – lecturer moderator Dr. Nava Shaked',
             'image': '/images/safeapp-icon.png',
             'description': `Android app that lets you use your smartphone while driving using the multimodality
                             approach.`,
             'link': 'https://github.com/ofirelarat/SafeApp',
             'linkLabel': 'GitHub page'
-        },
-        {
-            'title': 'MemoFun - fun and simple cards memory game',
-            'image': '/images/memo-fun.png',
-            'description': `Android free memory cards game, 
-                            very simple thats integrate with google play game services.`,
-            'link': 'https://play.google.com/store/apps/details?id=com.ofirelarat.memofun',
-            'linkLabel': 'play store page'
         },
         {
             'title': 'TodoList Website - fun and simple cards memory game',

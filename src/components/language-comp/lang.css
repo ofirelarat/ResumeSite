@@ -1,6 +1,5 @@
 .lang{
-    margin-left: 1.5%;
-    width: 250px;
+    flex: 1.8;
 }
 
 
@@ -9,12 +8,11 @@
     text-decoration: underline;
     font-weight: bold;
     font-size: 23px;
-    margin: 10px;
+    margin-left: -10px;
 }
 
 
 .lang .title .image{
-    margin-right: 1px;
     width: 24px;
     height: 24px;
 }
