@@ -39,7 +39,7 @@ function Projects() {
             'linkLabel': 'GitHub page'
         },
         {
-            'title': 'TodoList Website - fun and simple cards memory game',
+            'title': 'TodoList Website',
             'image': '/images/todolist-icon.png',
             'description': `Todo list website written with Java, useing MVC arciteqture.
                             The project deploied in the cloud and use postgresSQL DB.`,
