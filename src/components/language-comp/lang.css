@@ -20,3 +20,13 @@
 ul.lang {
     list-style-type: circle;
 }
+
+@media only screen and (max-width: 800px) {
+    .lang{
+        margin-left: 30px;
+    }
+
+    .lang .title .image{
+        margin-left: -15px;
+    }
+}

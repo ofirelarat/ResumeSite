@@ -40,3 +40,14 @@
     width: 50%;
     margin-left: 10px;
 }
+
+@media only screen and (max-width: 800px) {
+    .experience{
+        width: 90%;
+        margin: 10px 0 0 30px;
+    }
+
+    .experience .description{
+        width: 100%;
+    }
+}

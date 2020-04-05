@@ -30,5 +30,17 @@
 
 .projects a:link {
     text-decoration: none;
-  }
-  
+}
+
+
+@media only screen and (max-width: 800px) {
+    .projects{
+        width: 90%;
+        margin: 10px 0 0 30px;
+    }
+    .projects .card{
+        width: 340px;
+        height: 260px;
+        margin: 15px 0;
+    }
+}
