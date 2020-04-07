@@ -8,7 +8,7 @@ function Education() {
     const titlesItems = [
         {
             'title': 'B.Sc',
-            'organization': 'Holon Institute of Technology',
+            'organization': 'HIT',
             'expTime': '2014 – 2017',
             'descreption': `GPA: 88.75`
         }
