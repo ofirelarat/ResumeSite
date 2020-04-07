@@ -15,7 +15,7 @@ function Experience() {
         },
         {
             'title': 'Java Back Developer',
-            'organization': 'Holon Institute of Technology',
+            'organization': 'HIT',
             'expTime': '2016 – 2017',
             'descreption': `Building backend side of research project for Tel Aviv Sourasky medical center
                             and deploy this project in the cloud`
