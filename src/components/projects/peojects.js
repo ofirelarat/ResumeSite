@@ -37,14 +37,6 @@ function Projects() {
                             approach.`,
             'link': 'https://github.com/ofirelarat/SafeApp',
             'linkLabel': 'GitHub page'
-        },
-        {
-            'title': 'TodoList Website',
-            'image': '/images/todolist-icon.png',
-            'description': `Todo list website written with Java, useing MVC arciteqture.
-                            The project deploied in the cloud and use postgresSQL DB.`,
-            'link': 'https://ofirelarat.github.io/TodoListProject/',
-            'linkLabel': 'GitHub page'
         }
     ];
 
