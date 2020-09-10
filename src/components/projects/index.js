@@ -1,3 +1,3 @@
-import Projects from './peojects';
+import Projects from './projects';
 
 export default Projects;

@@ -32,6 +32,11 @@
     text-decoration: none;
 }
 
+.projects .carousel{
+    width: 380px;
+    margin: 0 5%;
+}
+
 
 @media only screen and (max-width: 800px) {
     .projects{
@@ -41,6 +46,9 @@
     .projects .card{
         width: 340px;
         height: 260px;
-        margin: 15px 0;
+    }
+
+    .projects .carousel{
+        margin: 0;
     }
 }

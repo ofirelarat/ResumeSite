@@ -32,6 +32,15 @@ function Education() {
         }
     ];
 
+    const publicationsItems = [
+        {
+            'title': 'Postmortem - incident examination',
+            'org': 'Medium',
+            'date': '2020',
+            'link': 'https://medium.com/p/4cc57db993b/edit'
+        }
+    ];
+
     const titleItemsCopm = titlesItems.map((item) =>   
         <ListItem alignItems="flex-start">
                 <ListItemText
@@ -54,6 +63,10 @@ function Education() {
             <div className="cert-description">{item.title} | {item.org} ({item.date})</div>
     );
 
+    const publicationItemsComp = publicationsItems.map((item) => 
+        <a href={item.link}  className="publication-description">{item.title} | {item.org} ({item.date})</a>
+    );
+
      return (
         <div className="education">
             <div className="title">
@@ -72,6 +85,20 @@ function Education() {
                         secondary={
                             <>
                                {certItemsComp}
+                            </>
+                        }
+                    />
+                </ListItem>
+
+                <ListItem alignItems="flex-start">
+                    <ListItemText
+                        primary={
+                            <div className="exp-title">
+                                <span className="primery-color">Publications</span> 
+                            </div>}
+                        secondary={
+                            <>
+                               {publicationItemsComp}
                             </>
                         }
                     />

@@ -45,6 +45,15 @@
     margin-left: 10px;
 }
 
+.education .publication-description{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #7f8c8d;
+}
+.education .publication-description:hover {
+    text-decoration: underline;
+}
+
 @media only screen and (max-width: 800px) {
     .education{
         width: 90%;

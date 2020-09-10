@@ -1,5 +1,8 @@
 import React from 'react';
 import {Card, CardActionArea, CardMedia, CardContent, Typography} from '@material-ui/core';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+
 import './projects.css';
 
 function Projects() {
@@ -70,9 +73,11 @@ function Projects() {
                 <img className="image" src="/images/projects.png"  alt="projects" />
                 Projects
             </div>
-            <div className="cards-container">
-                {projectsComp}
-            </div>
+            {/* <div className="cards-container"> */}
+                <Carousel className="carousel">
+                    {projectsComp}
+                </Carousel>
+            {/* </div> */}
         </div>
     );
   }

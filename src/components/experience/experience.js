@@ -7,11 +7,19 @@ import './experience.css';
 function Experience() {
     const experienceItems = [
         {
+            'title': 'Team leader of web development team',
+            'organization': 'Communication corps, IDF',
+            'expTime': 'mar 2020 – sep 2020',
+            'descreption': `Lead web development team in high scale operational system.
+                            Patnered with other teams and departments`
+        },
+        {
             'title': 'FullStack Developer',
             'organization': 'Communication corps, IDF',
-            'expTime': '2017 – 2020',
+            'expTime': 'sep 2017 – mar 2020',
             'descreption': `Take part in breaking an old monolith project to micro-services.
-                            Develop new projects from scratch and work with new technologies.`
+                            Develop new projects from scratch and work with new technologies.
+                            Develop API to many clients in different networks`
         },
         {
             'title': 'Java Back Developer',
