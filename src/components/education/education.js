@@ -16,6 +16,11 @@ function Education() {
 
     const certificatesItems = [
         {
+            'title': 'Fundamentals of digital marketing',
+            'org': 'Google garage',
+            'date': '2020'
+        },
+        {
             'title': 'Android Development',
             'org': 'HackerU',
             'date': '2019'
