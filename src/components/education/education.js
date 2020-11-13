@@ -42,7 +42,13 @@ function Education() {
             'title': 'Postmortem - incident examination',
             'org': 'Medium',
             'date': '2020',
-            'link': 'https://medium.com/p/4cc57db993b/edit'
+            'link': 'https://ofirelarat.medium.com/postmortem-incident-examination-process-4cc57db993b'
+        },
+        {
+            'title': '.NET behind the scene',
+            'org': 'Medium',
+            'date': '2020',
+            'link': 'https://ofirelarat.medium.com/net-behind-the-scene-a229f83083d0'
         }
     ];
 
