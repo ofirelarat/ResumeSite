@@ -75,7 +75,7 @@ function Education() {
     );
 
     const publicationItemsComp = publicationsItems.map((item) => 
-        <a href={item.link}  className="publication-description">{item.title} | {item.org} ({item.date})</a>
+        <div><a href={item.link}  className="publication-description">{item.title} | {item.org} ({item.date})</a></div>
     );
 
      return (
