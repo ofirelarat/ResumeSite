@@ -49,6 +49,12 @@ function Education() {
             'org': 'Medium',
             'date': '2020',
             'link': 'https://ofirelarat.medium.com/net-behind-the-scene-a229f83083d0'
+        },
+        {
+            'title': '.NET CLI',
+            'org': 'Medium',
+            'date': '2021',
+            'link': 'https://ofirelarat.medium.com/net-cli-8e8ecb4604bb'
         }
     ];
 
